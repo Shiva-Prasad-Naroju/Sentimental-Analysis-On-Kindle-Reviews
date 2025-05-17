@@ -60,11 +60,11 @@ Each model's performance was evaluated using:
 
 Technique	Accuracy (%):
 
-BoW	      58%
+BoW	-      58%
 
-TF-IDF	  57%
+TF-IDF	-  57%
 
-Word2Vec	57%
+Word2Vec -	57%
 
 ## 🔍 Observations:
 
@@ -74,7 +74,7 @@ Word2Vec	57%
 
 - The accuracy gap between techniques was narrow, indicating a need for more expressive models.
 
-🚀 Learning Outcomes:
+## 🚀 Learning Outcomes:
 
 - Gained hands-on experience in NLP preprocessing and vectorization techniques.
 
