@@ -6,8 +6,6 @@ This project dives into a subset of the Amazon product reviews dataset (Kindle c
 
 - Understand the sentiment behind product reviews 🗣️
 
-- Classify the star rating (1–5) based on the review content ⭐
-
 - Explore the impact of different feature extraction techniques on classification performance 📊
 
 ## 🛠️ Techniques Used:
@@ -19,6 +17,16 @@ We experimented with 3 popular Natural Language Processing (NLP) approaches:
 - TF-IDF (Term Frequency – Inverse Document Frequency) 📈
 
 - Word2Vec Embeddings 🧬
+
+I implemented several essential text preprocessing techniques including:
+
+🔹 Stop word removal
+
+🔹 Tokenization
+
+🔹 Lemmatization
+
+🔹 Special character removal
 
 ## 📦 Dataset Overview:
 
@@ -50,10 +58,29 @@ Each model's performance was evaluated using:
 
 ## ✅ Results Summary:
 
-Technique	Accuracy (%)
+Technique	Accuracy (%):
+
 BoW	      58%
+
 TF-IDF	  57%
+
 Word2Vec	57%
+
+## 🔍 Observations:
+
+- The classification task was challenging due to subjectivity in reviews and class imbalance.
+
+- Basic models like Gaussian Naive Bayes may not capture semantic nuances in the text.
+
+- The accuracy gap between techniques was narrow, indicating a need for more expressive models.
+
+🚀 Learning Outcomes:
+
+- Gained hands-on experience in NLP preprocessing and vectorization techniques.
+
+- Understood the limitations of classical models for complex NLP tasks.
+
+- Set the stage for experimenting with deep learning and transformer-based models like BERT for future improvements.
 
 ## 🧠 Takeaway:
 This project served as a strong foundation in learning how to apply text vectorization methods and build classification models. While the results weren’t high, they highlight the challenges in real-world sentiment analysis and the need for more advanced models (like deep learning, transformers, or context-aware embeddings).
