@@ -2,14 +2,10 @@
 
 This project explores a subset of the Amazon product reviews dataset (Kindle category) to analyze customer sentiment using a variety of text vectorization and machine learning techniques.
 
----
-
 ## 🧠 Project Objective
 
 - **Understand** the sentiment behind product reviews 🗣️
 - **Compare** the impact of different feature extraction and classification techniques on sentiment prediction performance 📊
-
----
 
 ## 🛠️ Techniques Used
 
@@ -25,8 +21,6 @@ We experimented with three popular Natural Language Processing (NLP) vectorizati
 - 🔹 Tokenization
 - 🔹 Lemmatization
 
----
-
 ## 📦 Dataset Overview
 
 - **Source:** Amazon Kindle Store Reviews (5-core version)
@@ -37,23 +31,19 @@ We experimented with three popular Natural Language Processing (NLP) vectorizati
 - `reviewText` 📝 - Actual review text
 - `rating` ⭐ - Review rating (1 to 5)
 
----
-
 ## 🤖 Models Compared
 
 To evaluate the effect of different classifiers, we applied a range of machine learning models:
 
-| Model                 | Emoji  |
-|-----------------------|--------|
-| Logistic Regression   | 🔗     |
-| XGBoost               | 🚀     |
-| Support Vector Machine (SVM) | 🧭 |
-| Random Forest         | 🌳     |
-| K-Nearest Neighbors (KNN) | 👥 |
-| Gaussian Naive Bayes  | 🧮     |
-| Decision Tree         | 🌲     |
-
----
+Models trained:
+-------------
+Logistic Regression   
+XGBoost               
+Support Vector Machine (SVM) 
+Random Forest         
+K-Nearest Neighbors (KNN)
+Gaussian Naive Bayes 
+Decision Tree
 
 ## 📊 Evaluation Metrics
 
@@ -61,8 +51,6 @@ Each model was assessed using:
 
 - **Accuracy** 🎯
 - **Classification Report** (Precision, Recall, F1-Score) 📄
-
----
 
 ## ✅ Results Summary
 
@@ -80,30 +68,27 @@ Here’s how the models performed using **Word2Vec embeddings**:
 
 > **Note:** BoW and TF-IDF with GaussianNB achieved around **58%** and **57%** accuracy, respectively.
 
----
-
 ## 🔍 Observations
 
 - **Logistic Regression** and **XGBoost** outperformed other models, with Logistic Regression achieving the highest accuracy.
+  
 - **Word2Vec embeddings** provided a significant boost over BoW and TF-IDF when paired with more expressive classifiers.
-- **GaussianNB**, while simple, lagged behind more advanced models, highlighting the importance of model selection in NLP tasks.
-- The accuracy gap between classical vectorization (BoW/TF-IDF) and dense embeddings (Word2Vec) is substantial when using stronger classifiers.
 
----
+- **GaussianNB**, while simple, lagged behind more advanced models, highlighting the importance of model selection in NLP tasks.
+  
+- The accuracy gap between classical vectorization (BoW/TF-IDF) and dense embeddings (Word2Vec) is substantial when using stronger classifiers.
 
 ## 🚀 Learning Outcomes
 
 - Gained practical experience in **NLP preprocessing**, **vectorization**, and **model evaluation**.
+  
 - Learned that **model choice** dramatically impacts results, especially with richer feature representations.
+  
 - Identified the **limitations of classical models** and the potential of advanced approaches (e.g., deep learning, transformers like BERT) for future work.
-
----
 
 ## 🧠 Takeaway
 
 This project built a solid foundation in text vectorization and machine learning for sentiment analysis. While classical models have their place, **modern embeddings and robust classifiers** are essential for tackling real-world NLP challenges. The next step? Experiment with deep learning and transformer-based models for even greater performance! ⚡
-
----
 
 ## 🤝 Let's Connect!
 
