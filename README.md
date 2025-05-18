@@ -31,19 +31,15 @@ We experimented with three popular Natural Language Processing (NLP) vectorizati
 - `reviewText` 📝 - Actual review text
 - `rating` ⭐ - Review rating (1 to 5)
 
-## 🤖 Models Compared
+## 🤖 Models Compared:
 
-To evaluate the effect of different classifiers, we applied a range of machine learning models:
-
-Models trained:
--------------
-Logistic Regression   
-XGBoost               
-Support Vector Machine (SVM) 
-Random Forest         
-K-Nearest Neighbors (KNN)
-Gaussian Naive Bayes 
-Decision Tree
+- Logistic Regression   
+- XGBoost               
+- Support Vector Machine (SVM) 
+- Random Forest         
+- K-Nearest Neighbors (KNN)
+- Gaussian Naive Bayes 
+- Decision Tree
 
 ## 📊 Evaluation Metrics
 
